@@ -1,0 +1,4488 @@
+__  Current Time:     860.90 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-controller>
+		Input Port Configuration:
+			port <inport>:
+				signal
+				signal
+				signal
+		New State: None
+		Next scheduled internal transition at time 860.90
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+				<BDI_struct_for_cpp.goal2schedule object at 0x000001A7106A6E88>
+			port <inport_plan>:
+		New State: None
+		Next scheduled internal transition at time 861.90
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+				<BDI_struct_for_cpp.goal2schedule object at 0x000001A72BB0C408>
+			port <inport_plan>:
+		New State: None
+		Next scheduled internal transition at time 861.90
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+				<BDI_struct_for_cpp.goal2schedule object at 0x000001A72BC0FEC8>
+			port <inport_plan>:
+		New State: None
+		Next scheduled internal transition at time 861.90
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp2.schedule2plan object at 0x000001A72BF48708>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 860.90
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp2.schedule2plan object at 0x000001A7106A6688>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-goal>
+		New State: None
+		Output Port Configuration:
+			port <outport>:
+				<BDI_struct_for_cpp.goal2schedule object at 0x000001A710667B48>
+			port <outport>:
+				signal
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-goal>
+		New State: None
+		Output Port Configuration:
+			port <outport>:
+				<BDI_struct_for_cpp.goal2schedule object at 0x000001A71068BC88>
+			port <outport>:
+				signal
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-goal>
+		New State: None
+		Output Port Configuration:
+			port <outport>:
+				<BDI_struct_for_cpp.goal2schedule object at 0x000001A7106A6448>
+			port <outport>:
+				signal
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp2.schedule2plan object at 0x000001A7106C1508>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     860.90 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-goal>
+		Input Port Configuration:
+			port <inport>:
+			port <inport>:
+				<Message.Message object at 0x000001A7106A6788>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-goal>
+		Input Port Configuration:
+			port <inport>:
+			port <inport>:
+				<Message.Message object at 0x000001A72BD26688>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-goal>
+		Input Port Configuration:
+			port <inport>:
+			port <inport>:
+				<Message.Message object at 0x000001A77DEED288>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp2.plan2interaction object at 0x000001A77DEED288>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time 860.90
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-controller>
+		New State: None
+		Output Port Configuration:
+			port <outport>:
+				<Message.Message object at 0x000001A72BB85688>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-plan1>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp2.plan2interaction object at 0x000001A7106C1A08>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     860.90 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.env>
+		Input Port Configuration:
+			port <inport>:
+				<Message.Message object at 0x000001A72BBD78C8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp2.interaction2plan object at 0x000001A72BBEC148>
+		New State: None
+		Next scheduled internal transition at time 860.90
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp2.interaction2plan object at 0x000001A72BBECC88>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp2.interaction2plan object at 0x000001A7106C4508>
+			port <outport_agent>:
+				<Message.Message object at 0x000001A72BBD7F88>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     860.90 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp2.plan2interaction object at 0x000001A72BB85C08>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-plan1>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp2.plan2interaction object at 0x000001A7106C1A08>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     861.90 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BABF948>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BBA8C88>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BF48FC8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BBD7A88>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 861.90
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC95848>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 861.90
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BF18F48>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 861.90
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A7106AA4C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BAC2D08>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BE70908>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BAC7708>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC8A688>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BCAAE08>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BBA8508>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BCC8FC8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BD26D08>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A710673C48>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A710691C08>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A7106B9C88>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     861.90 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BAC7A48>
+		New State: None
+		Next scheduled internal transition at time 862.90
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BBA8888>
+		New State: None
+		Next scheduled internal transition at time 862.90
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BCEA948>
+		New State: None
+		Next scheduled internal transition at time 862.90
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan2>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A710673D88>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan2>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A7106A0888>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan2>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A7106BB088>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     862.90 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A7106A6488>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC8AF88>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BF04908>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BAC7B48>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BF18608>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BF18D08>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A7106A6788>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 862.90
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A7106A68C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 862.90
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BBFC088>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 862.90
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A70F35B588>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A70F35B608>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BADE208>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BCEADC8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BD44308>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BD98AC8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A710673C48>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A710691C08>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A7106B9C88>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     862.90 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A7106AAE08>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time 862.90
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A72BFB6148>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time 862.90
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A72BFFB8C8>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time 862.90
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A710685688>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A7106A0D88>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A7106BB588>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     862.90 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.env>
+		Input Port Configuration:
+			port <inport>:
+				<Message.Message object at 0x000001A72BCEA548>
+				<Message.Message object at 0x000001A72BC531C8>
+				<Message.Message object at 0x000001A72BD60608>
+		New State: None
+		Next scheduled internal transition at time 863.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BED35C8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BF48808>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BF591C8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BC2B2C8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BDA8E48>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BF48A88>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BD44408>
+		New State: None
+		Next scheduled internal transition at time 862.90
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BFED088>
+		New State: None
+		Next scheduled internal transition at time 862.90
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BFFBBC8>
+		New State: None
+		Next scheduled internal transition at time 862.90
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BCEA148>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BF59088>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BF59208>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BAB6EC8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BEDF688>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BF59588>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A71068B6C8>
+			port <outport_agent>:
+				<Message.Message object at 0x000001A72BFB6048>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A7106A3E48>
+			port <outport_agent>:
+				<Message.Message object at 0x000001A72BF2D788>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A7106BE648>
+			port <outport_agent>:
+				<Message.Message object at 0x000001A72BC0FE08>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     862.90 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A72BBA8108>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A72BD26FC8>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A72BEDFC88>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A710685688>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A7106A0D88>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A7106BB588>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     863.00 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+			port <inport_agent>:
+				<Message.Message object at 0x000001A72BAD09C8>
+		New State: None
+		Next scheduled internal transition at time 863.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+			port <inport_agent>:
+				<Message.Message object at 0x000001A72BDFCB88>
+		New State: None
+		Next scheduled internal transition at time 863.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+			port <inport_agent>:
+				<Message.Message object at 0x000001A72BFFB8C8>
+		New State: None
+		Next scheduled internal transition at time 863.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+			port <inport_agent>:
+				<Message.Message object at 0x000001A72BC78188>
+		New State: None
+		Next scheduled internal transition at time 863.00
+
+
+	INTERNAL TRANSITION in model <Simulation.env>
+		New State: None
+		Output Port Configuration:
+			port <outport>:
+				<Message.Message object at 0x000001A72BABF188>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     863.00 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A71061AB08>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BD77E88>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BF59588>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A7106AA7C8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BD77248>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BF591C8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BC2B2C8>
+		New State: None
+		Next scheduled internal transition at time 863.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BDC5D08>
+		New State: None
+		Next scheduled internal transition at time 863.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BF48408>
+		New State: None
+		Next scheduled internal transition at time 863.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BB45C08>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BC2BE48>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BE98E48>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BBEC548>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BC2B9C8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BFFB608>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp2.interaction2plan object at 0x000001A72BAC2D08>
+		New State: None
+		Next scheduled internal transition at time 863.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp2.interaction2plan object at 0x000001A710667E08>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A71068B6C8>
+			port <outport_agent>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A7106A3E48>
+			port <outport_agent>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A7106BE648>
+			port <outport_agent>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp2.interaction2plan object at 0x000001A7106C4508>
+			port <outport_agent>:
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     863.00 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BBEC148>
+		New State: None
+		Next scheduled internal transition at time 864.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BC694C8>
+		New State: None
+		Next scheduled internal transition at time 864.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BCC8988>
+		New State: None
+		Next scheduled internal transition at time 864.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp2.plan2schedule object at 0x000001A72BD56EC8>
+		New State: None
+		Next scheduled internal transition at time 864.00
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A7106856C8>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A7106A0DC8>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A7106BB5C8>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-plan1>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp2.plan2schedule object at 0x000001A7106C1A48>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     864.00 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A7106C9048>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 864.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A7106FE5C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 864.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BBD79C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 864.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC84C88>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC8A4C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BE98188>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A7106A6D48>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BADE848>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BB0C948>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A7106A68C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A7106AA108>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BB999C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A70F35B608>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BBD7DC8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BBFC608>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-goal>
+		Input Port Configuration:
+			port <inport>:
+				<BDI_struct_for_cpp2.schedule2goal object at 0x000001A72BC95B88>
+			port <inport>:
+		New State: None
+		Next scheduled internal transition at time 865.00
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A710673C48>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A710691C08>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A7106B9C88>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+				<BDI_struct_for_cpp2.schedule2goal object at 0x000001A7106C1548>
+			port <outport_plan>:
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     864.00 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BBA81C8>
+		New State: None
+		Next scheduled internal transition at time 865.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BE01D48>
+		New State: None
+		Next scheduled internal transition at time 865.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BF59648>
+		New State: None
+		Next scheduled internal transition at time 865.00
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan1>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A710673C88>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan1>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A7106A0348>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan1>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A7106B9548>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     865.00 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-goal>
+		Input Port Configuration:
+			port <inport>:
+				<BDI_struct_for_cpp.schedule2goal object at 0x000001A72BBFC788>
+			port <inport>:
+		New State: None
+		Next scheduled internal transition at time 866.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-goal>
+		Input Port Configuration:
+			port <inport>:
+				<BDI_struct_for_cpp.schedule2goal object at 0x000001A72BC8FC48>
+			port <inport>:
+		New State: None
+		Next scheduled internal transition at time 866.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-goal>
+		Input Port Configuration:
+			port <inport>:
+				<BDI_struct_for_cpp.schedule2goal object at 0x000001A72BDFC048>
+			port <inport>:
+		New State: None
+		Next scheduled internal transition at time 866.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-controller>
+		Input Port Configuration:
+			port <inport>:
+				signal
+		New State: None
+		Next scheduled internal transition at time 865.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+				<BDI_struct_for_cpp2.goal2schedule object at 0x000001A70F35B588>
+			port <inport_plan>:
+		New State: None
+		Next scheduled internal transition at time 866.00
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+				<BDI_struct_for_cpp.schedule2goal object at 0x000001A710673F88>
+			port <outport_plan>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+				<BDI_struct_for_cpp.schedule2goal object at 0x000001A7106919C8>
+			port <outport_plan>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+				<BDI_struct_for_cpp.schedule2goal object at 0x000001A7106B9D88>
+			port <outport_plan>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-goal>
+		New State: None
+		Output Port Configuration:
+			port <outport>:
+				<BDI_struct_for_cpp2.goal2schedule object at 0x000001A7106BEF88>
+			port <outport>:
+				signal
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     865.00 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-goal>
+		Input Port Configuration:
+			port <inport>:
+			port <inport>:
+				<Message.Message object at 0x000001A72BC84188>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-controller>
+		New State: None
+		Output Port Configuration:
+			port <outport>:
+				<Message.Message object at 0x000001A72BB85588>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     866.00 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-controller>
+		Input Port Configuration:
+			port <inport>:
+				signal
+				signal
+				signal
+		New State: None
+		Next scheduled internal transition at time 866.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+				<BDI_struct_for_cpp.goal2schedule object at 0x000001A7106A6E88>
+			port <inport_plan>:
+		New State: None
+		Next scheduled internal transition at time 867.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+				<BDI_struct_for_cpp.goal2schedule object at 0x000001A72BB99708>
+			port <inport_plan>:
+		New State: None
+		Next scheduled internal transition at time 867.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+				<BDI_struct_for_cpp.goal2schedule object at 0x000001A72BBD7708>
+			port <inport_plan>:
+		New State: None
+		Next scheduled internal transition at time 867.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp2.schedule2plan object at 0x000001A72BAC2FC8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 866.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp2.schedule2plan object at 0x000001A72BAC2D88>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-goal>
+		New State: None
+		Output Port Configuration:
+			port <outport>:
+				<BDI_struct_for_cpp.goal2schedule object at 0x000001A710667B48>
+			port <outport>:
+				signal
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-goal>
+		New State: None
+		Output Port Configuration:
+			port <outport>:
+				<BDI_struct_for_cpp.goal2schedule object at 0x000001A71068BC88>
+			port <outport>:
+				signal
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-goal>
+		New State: None
+		Output Port Configuration:
+			port <outport>:
+				<BDI_struct_for_cpp.goal2schedule object at 0x000001A7106A6448>
+			port <outport>:
+				signal
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp2.schedule2plan object at 0x000001A7106C1508>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     866.00 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-goal>
+		Input Port Configuration:
+			port <inport>:
+			port <inport>:
+				<Message.Message object at 0x000001A7106A6688>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-goal>
+		Input Port Configuration:
+			port <inport>:
+			port <inport>:
+				<Message.Message object at 0x000001A72BE011C8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-goal>
+		Input Port Configuration:
+			port <inport>:
+			port <inport>:
+				<Message.Message object at 0x000001A72BE01D08>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp2.plan2interaction object at 0x000001A72BE013C8>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time 866.00
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-controller>
+		New State: None
+		Output Port Configuration:
+			port <outport>:
+				<Message.Message object at 0x000001A72BE01BC8>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-plan1>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp2.plan2interaction object at 0x000001A7106C1A08>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     866.00 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.env>
+		Input Port Configuration:
+			port <inport>:
+				<Message.Message object at 0x000001A7106736C8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp2.interaction2plan object at 0x000001A72BE01D08>
+		New State: None
+		Next scheduled internal transition at time 866.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp2.interaction2plan object at 0x000001A72BFFB248>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp2.interaction2plan object at 0x000001A7106C4508>
+			port <outport_agent>:
+				<Message.Message object at 0x000001A7106A6C88>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     866.00 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp2.plan2interaction object at 0x000001A72BFFBE48>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-plan1>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp2.plan2interaction object at 0x000001A7106C1A08>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     867.00 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BCC86C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BEEB988>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BFEDD48>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC8F748>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 867.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC95BC8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 867.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BEEB788>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 867.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BB99A88>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BDA8D08>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BEDF188>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BD56088>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BD56208>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BEEB248>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BAB6E88>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC0F208>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BF189C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A710673C48>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A710691C08>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A7106B9C88>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     867.00 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BAB6C88>
+		New State: None
+		Next scheduled internal transition at time 868.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BB0C888>
+		New State: None
+		Next scheduled internal transition at time 868.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BB99448>
+		New State: None
+		Next scheduled internal transition at time 868.00
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan2>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A710673D88>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan2>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A7106A0888>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan2>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A7106BB088>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     868.00 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC69648>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC842C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BDA8A08>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC95348>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BDA8788>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BF2DDC8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BAC7F88>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 868.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC95D88>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 868.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BFFBAC8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 868.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BBD7C08>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC2B488>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BE98148>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BB70388>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BB99348>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BDA8588>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A710673C48>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A710691C08>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A7106B9C88>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     868.00 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A72BCC8C88>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time 868.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A72BD56608>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time 868.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A72BE98588>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time 868.00
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A710685688>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A7106A0D88>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A7106BB588>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     868.00 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.env>
+		Input Port Configuration:
+			port <inport>:
+				<Message.Message object at 0x000001A72BB99988>
+				<Message.Message object at 0x000001A72BBC40C8>
+				<Message.Message object at 0x000001A72BDCFF48>
+		New State: None
+		Next scheduled internal transition at time 868.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BD77708>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BE98688>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BFFBBC8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BB99C88>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BBFCE08>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BFFB0C8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A7106B91C8>
+		New State: None
+		Next scheduled internal transition at time 868.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BD77E88>
+		New State: None
+		Next scheduled internal transition at time 868.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BE98EC8>
+		New State: None
+		Next scheduled internal transition at time 868.00
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A71068BFC8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BE70108>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BF48A48>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BC2BE08>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BE98B48>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BFFBD48>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A71068B6C8>
+			port <outport_agent>:
+				<Message.Message object at 0x000001A72BF599C8>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A7106A3E48>
+			port <outport_agent>:
+				<Message.Message object at 0x000001A72BE98948>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A7106BE648>
+			port <outport_agent>:
+				<Message.Message object at 0x000001A72BE34C88>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     868.00 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A72BD06648>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A72BDFC8C8>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A72BFE4208>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A710685688>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A7106A0D88>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A7106BB588>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     868.10 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+			port <inport_agent>:
+				<Message.Message object at 0x000001A72BC95748>
+		New State: None
+		Next scheduled internal transition at time 868.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+			port <inport_agent>:
+				<Message.Message object at 0x000001A72BE50888>
+		New State: None
+		Next scheduled internal transition at time 868.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+			port <inport_agent>:
+				<Message.Message object at 0x000001A72BEEBFC8>
+		New State: None
+		Next scheduled internal transition at time 868.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+			port <inport_agent>:
+				<Message.Message object at 0x000001A72BAB6E88>
+		New State: None
+		Next scheduled internal transition at time 868.10
+
+
+	INTERNAL TRANSITION in model <Simulation.env>
+		New State: None
+		Output Port Configuration:
+			port <outport>:
+				<Message.Message object at 0x000001A72BC95988>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     868.10 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BB45AC8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BC78188>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BFFBD48>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BACA488>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BB707C8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BFFBBC8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BB99C88>
+		New State: None
+		Next scheduled internal transition at time 868.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BDE4BC8>
+		New State: None
+		Next scheduled internal transition at time 868.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BFFB0C8>
+		New State: None
+		Next scheduled internal transition at time 868.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BB45288>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BC84EC8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BD06D08>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A71061AB08>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BE70C08>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BFC09C8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp2.interaction2plan object at 0x000001A72BFE4A88>
+		New State: None
+		Next scheduled internal transition at time 868.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp2.interaction2plan object at 0x000001A72BAA8288>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A71068B6C8>
+			port <outport_agent>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A7106A3E48>
+			port <outport_agent>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A7106BE648>
+			port <outport_agent>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp2.interaction2plan object at 0x000001A7106C4508>
+			port <outport_agent>:
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     868.10 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BAC76C8>
+		New State: None
+		Next scheduled internal transition at time 869.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BCAA148>
+		New State: None
+		Next scheduled internal transition at time 869.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BF59C88>
+		New State: None
+		Next scheduled internal transition at time 869.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp2.plan2schedule object at 0x000001A72BD98308>
+		New State: None
+		Next scheduled internal transition at time 869.10
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A7106856C8>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A7106A0DC8>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A7106BB5C8>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-plan1>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp2.plan2schedule object at 0x000001A7106C1A48>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     869.10 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BB45A48>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 869.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC78988>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 869.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BEEB788>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 869.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BBFC6C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BE20848>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BFFB108>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BB70A48>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BBFC348>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC8AA48>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BB282C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC0FC88>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BE011C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BAD0D48>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC96588>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BFED7C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-goal>
+		Input Port Configuration:
+			port <inport>:
+				<BDI_struct_for_cpp2.schedule2goal object at 0x000001A72BABF208>
+			port <inport>:
+		New State: None
+		Next scheduled internal transition at time 870.10
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A710673C48>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A710691C08>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A7106B9C88>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+				<BDI_struct_for_cpp2.schedule2goal object at 0x000001A7106C1548>
+			port <outport_plan>:
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     869.10 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A710691708>
+		New State: None
+		Next scheduled internal transition at time 870.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BB5A0C8>
+		New State: None
+		Next scheduled internal transition at time 870.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BD56248>
+		New State: None
+		Next scheduled internal transition at time 870.10
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan1>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A710673C88>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan1>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A7106A0348>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan1>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A7106B9548>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     870.10 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-goal>
+		Input Port Configuration:
+			port <inport>:
+				<BDI_struct_for_cpp.schedule2goal object at 0x000001A7106B93C8>
+			port <inport>:
+		New State: None
+		Next scheduled internal transition at time 871.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-goal>
+		Input Port Configuration:
+			port <inport>:
+				<BDI_struct_for_cpp.schedule2goal object at 0x000001A72BE70348>
+			port <inport>:
+		New State: None
+		Next scheduled internal transition at time 871.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-goal>
+		Input Port Configuration:
+			port <inport>:
+				<BDI_struct_for_cpp.schedule2goal object at 0x000001A72BE98148>
+			port <inport>:
+		New State: None
+		Next scheduled internal transition at time 871.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-controller>
+		Input Port Configuration:
+			port <inport>:
+				signal
+		New State: None
+		Next scheduled internal transition at time 870.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+				<BDI_struct_for_cpp2.goal2schedule object at 0x000001A72BD77288>
+			port <inport_plan>:
+		New State: None
+		Next scheduled internal transition at time 871.10
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+				<BDI_struct_for_cpp.schedule2goal object at 0x000001A710673F88>
+			port <outport_plan>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+				<BDI_struct_for_cpp.schedule2goal object at 0x000001A7106919C8>
+			port <outport_plan>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+				<BDI_struct_for_cpp.schedule2goal object at 0x000001A7106B9D88>
+			port <outport_plan>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-goal>
+		New State: None
+		Output Port Configuration:
+			port <outport>:
+				<BDI_struct_for_cpp2.goal2schedule object at 0x000001A7106BEF88>
+			port <outport>:
+				signal
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     870.10 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-goal>
+		Input Port Configuration:
+			port <inport>:
+			port <inport>:
+				<Message.Message object at 0x000001A70F35B588>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-controller>
+		New State: None
+		Output Port Configuration:
+			port <outport>:
+				<Message.Message object at 0x000001A72BAD0848>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     871.10 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-controller>
+		Input Port Configuration:
+			port <inport>:
+				signal
+				signal
+				signal
+		New State: None
+		Next scheduled internal transition at time 871.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+				<BDI_struct_for_cpp.goal2schedule object at 0x000001A72BE500C8>
+			port <inport_plan>:
+		New State: None
+		Next scheduled internal transition at time 872.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+				<BDI_struct_for_cpp.goal2schedule object at 0x000001A72BE70588>
+			port <inport_plan>:
+		New State: None
+		Next scheduled internal transition at time 872.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+				<BDI_struct_for_cpp.goal2schedule object at 0x000001A72BF591C8>
+			port <inport_plan>:
+		New State: None
+		Next scheduled internal transition at time 872.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp2.schedule2plan object at 0x000001A72BAB69C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 871.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp2.schedule2plan object at 0x000001A72BC2B8C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-goal>
+		New State: None
+		Output Port Configuration:
+			port <outport>:
+				<BDI_struct_for_cpp.goal2schedule object at 0x000001A710667B48>
+			port <outport>:
+				signal
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-goal>
+		New State: None
+		Output Port Configuration:
+			port <outport>:
+				<BDI_struct_for_cpp.goal2schedule object at 0x000001A71068BC88>
+			port <outport>:
+				signal
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-goal>
+		New State: None
+		Output Port Configuration:
+			port <outport>:
+				<BDI_struct_for_cpp.goal2schedule object at 0x000001A7106A6448>
+			port <outport>:
+				signal
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp2.schedule2plan object at 0x000001A7106C1508>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     871.10 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-goal>
+		Input Port Configuration:
+			port <inport>:
+			port <inport>:
+				<Message.Message object at 0x000001A71068BFC8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-goal>
+		Input Port Configuration:
+			port <inport>:
+			port <inport>:
+				<Message.Message object at 0x000001A72BE20448>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-goal>
+		Input Port Configuration:
+			port <inport>:
+			port <inport>:
+				<Message.Message object at 0x000001A72BFEDF08>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp2.plan2interaction object at 0x000001A72BE20708>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time 871.10
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-controller>
+		New State: None
+		Output Port Configuration:
+			port <outport>:
+				<Message.Message object at 0x000001A72BFEDFC8>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-plan1>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp2.plan2interaction object at 0x000001A7106C1A08>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     871.10 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.env>
+		Input Port Configuration:
+			port <inport>:
+				<Message.Message object at 0x000001A71068BFC8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp2.interaction2plan object at 0x000001A7106EA5C8>
+		New State: None
+		Next scheduled internal transition at time 871.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp2.interaction2plan object at 0x000001A72BE70808>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp2.interaction2plan object at 0x000001A7106C4508>
+			port <outport_agent>:
+				<Message.Message object at 0x000001A72BFEDC88>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     871.10 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp2.plan2interaction object at 0x000001A72BF595C8>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-plan1>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp2.plan2interaction object at 0x000001A7106C1A08>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     872.10 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BAEA548>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BD06EC8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BE98488>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BD56908>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 872.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BFEDA08>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 872.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A77E014348>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 872.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BDA8AC8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BDFC188>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BF59248>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC785C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC84288>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC95BC8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BADE948>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BDC5D88>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BE016C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A710673C48>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A710691C08>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A7106B9C88>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     872.10 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BD06148>
+		New State: None
+		Next scheduled internal transition at time 873.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BE98188>
+		New State: None
+		Next scheduled internal transition at time 873.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BE98AC8>
+		New State: None
+		Next scheduled internal transition at time 873.10
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan2>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A710673D88>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan2>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A7106A0888>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan2>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A7106BB088>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     873.10 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BADE688>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BB28288>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC69608>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BB28248>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BD06CC8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BE709C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BB85B48>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 873.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC96588>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 873.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BFC0F88>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 873.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BB0C508>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BB855C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BE01B88>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BB853C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BEDF288>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BFE4888>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A710673C48>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A710691C08>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A7106B9C88>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     873.10 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A72BBEC148>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time 873.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A72BC2B548>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time 873.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A72BD06648>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time 873.10
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A710685688>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A7106A0D88>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A7106BB588>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     873.10 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.env>
+		Input Port Configuration:
+			port <inport>:
+				<Message.Message object at 0x000001A72BD56408>
+				<Message.Message object at 0x000001A72BBC4208>
+				<Message.Message object at 0x000001A72BDCFE88>
+		New State: None
+		Next scheduled internal transition at time 873.20
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BD60848>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BE70C08>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A77DEED288>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A71061AB08>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BCAA248>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BE70D08>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BACA088>
+		New State: None
+		Next scheduled internal transition at time 873.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BE20408>
+		New State: None
+		Next scheduled internal transition at time 873.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BF59FC8>
+		New State: None
+		Next scheduled internal transition at time 873.10
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BB707C8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BD603C8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BF485C8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BC8A388>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BD06608>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BE70308>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A71068B6C8>
+			port <outport_agent>:
+				<Message.Message object at 0x000001A72BEEBA88>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A7106A3E48>
+			port <outport_agent>:
+				<Message.Message object at 0x000001A72BBECDC8>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A7106BE648>
+			port <outport_agent>:
+				<Message.Message object at 0x000001A72BE70AC8>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     873.10 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A72BB45188>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A72BDA8108>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A72BFB6788>
+			port <inport_agent>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A710685688>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A7106A0D88>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+			port <outport_interaction>:
+				<BDI_struct_for_cpp.plan2interaction object at 0x000001A7106BB588>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     873.20 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+			port <inport_agent>:
+				<Message.Message object at 0x000001A72BABFE88>
+		New State: None
+		Next scheduled internal transition at time 873.20
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+			port <inport_agent>:
+				<Message.Message object at 0x000001A72BFB6C88>
+		New State: None
+		Next scheduled internal transition at time 873.20
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+			port <inport_agent>:
+				<Message.Message object at 0x000001A72BFB6CC8>
+		New State: None
+		Next scheduled internal transition at time 873.20
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-interaction>
+		Input Port Configuration:
+			port <inport_plan>:
+			port <inport_agent>:
+				<Message.Message object at 0x000001A72BE01C08>
+		New State: None
+		Next scheduled internal transition at time 873.20
+
+
+	INTERNAL TRANSITION in model <Simulation.env>
+		New State: None
+		Output Port Configuration:
+			port <outport>:
+				<Message.Message object at 0x000001A72BD06648>
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     873.20 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BAB6E88>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BACA788>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BC96188>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BBECDC8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BD268C8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A77DEED288>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BCAA248>
+		New State: None
+		Next scheduled internal transition at time 873.20
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BCEA708>
+		New State: None
+		Next scheduled internal transition at time 873.20
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BF489C8>
+		New State: None
+		Next scheduled internal transition at time 873.20
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BC96208>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BD262C8>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BFDEA48>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BCC8588>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BD26D48>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A72BFDE608>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp2.interaction2plan object at 0x000001A72BFDE488>
+		New State: None
+		Next scheduled internal transition at time 873.20
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+			port <inport_interaction>:
+				<BDI_struct_for_cpp2.interaction2plan object at 0x000001A72BFDE388>
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A71068B6C8>
+			port <outport_agent>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A7106A3E48>
+			port <outport_agent>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.interaction2plan object at 0x000001A7106BE648>
+			port <outport_agent>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-interaction>
+		New State: None
+		Output Port Configuration:
+			port <outport_plan>:
+				<BDI_struct_for_cpp2.interaction2plan object at 0x000001A7106C4508>
+			port <outport_agent>:
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     873.20 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BBEC8C8>
+		New State: None
+		Next scheduled internal transition at time 874.20
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BE20D08>
+		New State: None
+		Next scheduled internal transition at time 874.20
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A72BFC0F08>
+		New State: None
+		Next scheduled internal transition at time 874.20
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-schedule>
+		Input Port Configuration:
+			port <inport_goal>:
+			port <inport_plan>:
+				<BDI_struct_for_cpp2.plan2schedule object at 0x000001A72BC3FB48>
+		New State: None
+		Next scheduled internal transition at time 874.20
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A7106856C8>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A7106A0DC8>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-plan3>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp.plan2schedule object at 0x000001A7106BB5C8>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-plan1>
+		New State: None
+		Output Port Configuration:
+			port <outport_schedule>:
+				<BDI_struct_for_cpp2.plan2schedule object at 0x000001A7106C1A48>
+			port <outport_interaction>:
+		Next scheduled internal transition at time inf
+
+
+__  Current Time:     874.20 __________________________________________
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BB45148>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 874.20
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BD98188>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 874.20
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan1>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BE70F88>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time 874.20
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A7106733C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BABF648>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan2>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC8AB88>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BAD0288>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BBA8F48>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan3>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BE01A48>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BACAD48>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BB70588>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan4>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BE016C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC2B908>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BC8F8C8>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.predator-plan5>
+		Input Port Configuration:
+			port <inport_schedule>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A72BFC0388>
+			port <inport_interaction>:
+		New State: None
+		Next scheduled internal transition at time inf
+
+
+	EXTERNAL TRANSITION in model <Simulation.prey-goal>
+		Input Port Configuration:
+			port <inport>:
+				<BDI_struct_for_cpp2.schedule2goal object at 0x000001A72BCAA548>
+			port <inport>:
+		New State: None
+		Next scheduled internal transition at time 875.20
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A710673C48>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A710691C08>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.predator-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+			port <outport_plan>:
+				<BDI_struct_for_cpp.schedule2plan object at 0x000001A7106B9C88>
+		Next scheduled internal transition at time inf
+
+
+	INTERNAL TRANSITION in model <Simulation.prey-schedule>
+		New State: None
+		Output Port Configuration:
+			port <outport_goal>:
+				<BDI_struct_for_cpp2.schedule2goal object at 0x000001A7106C1548>
+			port <outport_plan>:
+		Next scheduled internal transition at time inf
+
